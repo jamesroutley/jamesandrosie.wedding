@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="container">
+  <div class="row mt-5">
+
+    <div id="image" class="col-lg">
+      <img src="/img/nye.jpeg" class="img-fluid mb-3">
+    </div>
+
+    <div class="col-lg">
+      <div id="invite" class="mb-5">
+        <p id="names">{{ .Params.Guests }}</p>
+        <p>Please save the date</p>
+        <p id="date">12<sup>th</sup> October 2019</p>
+        <p>for the wedding of</p>
+        <div id="jamesrosie">
+          <p id="names" class="mb-1">Rosie Elizabeth <nobr>Balfour-Lynn</nobr></p>
+          <p class="mb-1">and</p>
+          <p id="names">James Ming Liang Routley</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div id="rsvp" class="mb-4">
+        <p>Invitations to follow<br>
+          please send your address to:<br>
+          <a href="mailto: rsvp@jamesandrosie.wedding">rsvp@jamesandrosie.wedding<a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+{{ end }}

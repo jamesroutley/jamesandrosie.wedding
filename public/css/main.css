@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+body {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+::selection {
+    background: #ffcdd2;
+}
+
+::-moz-selection {
+    background: #ffcdd2;
+}
+
+#date {
+    font-weight: bold;
+}
+
+#names {
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+hr {
+    width: 70%;
+}
+
+#image {
+    display: flex;
+    align-items: center; /* align vertical */
+}
+
+a {
+    color: #087f23;
+}
+
+a:hover {
+    color: #005100;
+}
