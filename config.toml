@@ -3,3 +3,4 @@ languageCode = "en-gb"
 title = "James and Rosie's wedding"
 disableKinds = ["sitemap", "RSS"]
 enableRobotsTXT = true
+publishDir = "docs"
