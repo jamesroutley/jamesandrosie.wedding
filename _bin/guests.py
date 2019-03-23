@@ -31,7 +31,7 @@ guests = [
     "raman",
     "olivia",
     "lucy",
-    "richard",
+    "richard-tori",
     "jez",
     "sophie",
     "harry-yasmine",
