@@ -42,7 +42,8 @@ guests = [
 template = """---
 title: "Save the date"
 date: 2019-03-05T00:00:00Z
-guests: "{}"
+names: "{}"
+id: "{}"
 ---
 """
 
@@ -63,4 +64,4 @@ if __name__ == "__main__":
         filename = os.path.join(dirname, guest + ".md")
         names = get_names(guest)
         with open(filename, "w") as f:
-            f.write(template.format(names))
+            f.write(template.format(names, guest))
