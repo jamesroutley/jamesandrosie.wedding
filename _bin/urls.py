@@ -28,6 +28,7 @@ guests = [
     "olivia",
     "lucy",
     "richard-tori",
+    "tati",
     "jez",
     "sophie",
     "harry-yasmine",
